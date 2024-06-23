@@ -1,0 +1,43 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-color: #f0f0f0; 
+}
+
+/* Container for the entire application */
+.app-container {
+  max-width: 1200px; 
+  margin: 20px auto;
+  padding: 20px; 
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Container for multiple tables */
+.tables-container {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+/* Heading style */
+h1 {
+  text-align: center; 
+  margin-bottom: 20px; 
+  color: #333; 
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .tables-container {
+    flex-direction: column; 
+  }
+
+  .table-container {
+    width: 100%;
+    margin-bottom: 20px; 
+  }
+}
